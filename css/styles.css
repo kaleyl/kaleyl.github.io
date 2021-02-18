@@ -1,0 +1,61 @@
+/* Color Palette:
+https://colorhunt.co/palette/226680
+https://colorhunt.co/palette/252807
+https://colorhunt.co/palette/195717
+https://colorhunt.co/palette/253250 */
+
+/*********************TAG Selectors*********************/
+body {
+  background-color: #f6f5f5;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 10%;
+}
+
+h1 {
+  color: #0d335d;
+}
+
+h3 {
+  color: #596e79;
+}
+
+a {
+  color: black;
+  text-decoration: #c7b198 wavy underline;
+}
+/*********************CLASS Selectors******************/
+.dot-line {
+  opacity: 0.5;
+}
+
+ul.icons li {
+	display: inline-block;
+	height: 2.5em;
+	line-height: 2.5em;
+	padding: 0 0.5em;
+}
+
+.fresh-app {
+  color : #f58634;
+}
+
+/*********************ID Selectors******************/
+#heading {
+    font-size: 100px;
+}
+
+#footer {
+		padding: 6em 0;
+		text-align: center;
+}
+
+/*********************Pseudoclass Selectors******************/
+a:hover {
+  color: #0d335d;
+}
