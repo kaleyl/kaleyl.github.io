@@ -1,12 +1,44 @@
 /* Color Palette:
-https://colorhunt.co/palette/226680
-https://colorhunt.co/palette/252807
-https://colorhunt.co/palette/195717
-https://colorhunt.co/palette/253250 */
+https://colorhunt.co/palette/163855
+*/
 
-/*********************TAG Selectors*********************/
 body {
-  background-color: #f6f5f5;
+  margin: 0;
+  text-align: center;
+  font-family: 'Nunito', serif;
+  color: #40514E;
+  height: 100%;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5rem;
+  font-family: 'Sacramento', cursive;
+  margin: 0 auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Merriweather',sans-serif;
+}
+
+div {
+  /* padding-top: 60px; */
+
+}
+
+span {
+  text-decoration: underline;
+}
+
+a {
+
 }
 
 hr {
@@ -14,48 +46,156 @@ hr {
   border-top-style: dotted;
   border-color: grey;
   border-width: 5px;
-  width: 10%;
+  width: 8%;
+}
+/*********** Class Selectors ***********/
+.copyright {
+  color: #EAF6F6;
+  font-family: "Merriweather", sans-serif;
+  font-size: 0.75rem;
+  margin: 20px auto 0 auto;
 }
 
-h1 {
-  color: #0d335d;
-}
-
-h3 {
-  color: #596e79;
-}
-
-a {
-  color: black;
-  text-decoration: #c7b198 wavy underline;
-}
-/*********************CLASS Selectors******************/
 .dot-line {
-  opacity: 0.5;
+  opacity: 0.2;
+  margin: 80px auto;
+  clear: both;
 }
 
-ul.icons li {
-	display: inline-block;
-	height: 2.5em;
-	line-height: 2.5em;
-	padding: 0 0.5em;
+.footer-link {
+  font-size: 20px;
+  margin: 10px 20px;
+  color: #11999E;
+  font-family: Nunito, serif;
+  text-decoration: none;
 }
 
-.fresh-app {
-  color : #f58634;
+.intro {
+
 }
 
-/*********************ID Selectors******************/
-#heading {
-    font-size: 100px;
+.top-container {
+  background-color: #e3f6f5;
+  position: relative;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  line-height: 1.5;
 }
 
-#footer {
-		padding: 6em 0;
-		text-align: center;
+.top-container-content {
+  font-size: 1.25rem;
+  position: relative;
+  bottom: 20px;
+  width: 80%;
+  margin: 40px 0 40px 350px;
 }
 
-/*********************Pseudoclass Selectors******************/
-a:hover {
-  color: #0d335d;
+.middle-container {
+  margin-top: 40px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 80px;
+  padding: 50px 0 20px 0;
+}
+
+.img-left {
+  float: left;
+  margin: auto 40px auto 40px;
+  position: relative;
+  bottom: 10px;
+}
+
+
+/* .top-cloud {
+  position: absolute;
+  top: 35px;
+  right: 100px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 100px;
+
+} */
+
+.subtitle  {
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  text-align: left;
+  line-height: 2;
+  padding: 50px 0;
+}
+
+.proj-content-right{
+  text-align: right;
+}
+.skill-img-left{
+  width : 20%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.skill-img-right{
+  width : 15%;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+.proj-title {
+  font-family: Merriweather, sans-serif;
+  font-size: 3rem;
+  text-align: left;
+}
+
+.proj-page {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.contact-button {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #66BFBF);
+   background-image: -moz-linear-gradient(top, #3D94F6, #66BFBF);
+   background-image: -ms-linear-gradient(top, #3D94F6, #66BFBF);
+   background-image: -o-linear-gradient(top, #3D94F6, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #66BFBF);
+   -webkit-border-radius: 26px;
+   -moz-border-radius: 26px;
+   border-radius: 26px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   font-size: 15px;
+   font-weight: 100;
+   padding: 15px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.contact-button:hover {
+   border: solid #000000 0;
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #3D94F6);
+   background-image: -moz-linear-gradient(top, #66BFBF, #3D94F6);
+   background-image: -ms-linear-gradient(top, #66BFBF, #3D94F6);
+   background-image: -o-linear-gradient(top, #66BFBF, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #3D94F6);
+   -webkit-border-radius: 26px;
+   -moz-border-radius: 26px;
+   border-radius: 26px;
+   text-decoration: none;
 }
