@@ -28,17 +28,15 @@ h3 {
   font-family: 'Merriweather',sans-serif;
 }
 
-div {
-  /* padding-top: 60px; */
-
+td {
+  padding: 0 40px;
+}
+table {
+  margin: 20px auto;
 }
 
 span {
   text-decoration: underline;
-}
-
-a {
-
 }
 
 hr {
@@ -70,7 +68,12 @@ hr {
   text-decoration: none;
 }
 
-.intro {
+.center-img {
+  width: 65%;
+  margin: 30px 350px;
+}
+
+.center-img-div {
 
 }
 
@@ -163,6 +166,12 @@ hr {
 .proj-page {
   text-align: left;
   margin-left: 20px;
+  margin-top: 10px;
+}
+
+.app-table {
+  table-layout: fixed;
+  width: 100%;
 }
 
 .contact-button {
